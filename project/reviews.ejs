@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+</head>
+<body>
+    <h1>Review Page</h1>
+
+    <% if (reviews.length > 0) { %>
+        <ul>
+            <% reviews.forEach(review => { %>
+                <li>
+                    <strong>Name:</strong> <%= review.ownername %><br>
+                    <strong>Contact:</strong> <%= review.ownercontact %><br>
+                    <strong>Location:</strong> <%= review.ownerlocation %><br>
+                    <!-- Add more fields as needed -->
+                </li>
+            <% }); %>
+        </ul>
+    <% } else { %>
+        <p>No reviews available.</p>
+    <% } %>
+</body>
+</html>
