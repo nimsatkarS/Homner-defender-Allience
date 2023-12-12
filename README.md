@@ -3,7 +3,4 @@ Privet Friends ✋🏻 This is my first collage submission project🎉This proje
 LANDING PAGE 
 ![Screenshot 2023-11-29 202257](https://github.com/nimsatkarS/Homner-defender-Allience/assets/121743873/3fd04800-5a2d-46ed-a49d-dcc2b567c5d7)
 PROPERTY PAGE
-USER REVIEW PAGE 
-![Uploading Screenshot 2023-12-12 203316.png…]()
-REPORT PAGE 
-![Uploading Screenshot 2023-12-12 203338.png…]()
+
