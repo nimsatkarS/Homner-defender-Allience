@@ -82,7 +82,7 @@ app.get('/Owner-Review', (req, res) =>{
 });
 */
 app.get('/reviews', (req, res) => {
-    // Fetch reviews from the database
+    // Fetch reviews from the database securly
     Client.query("SELECT * FROM ownerinfo")
         .then(result => {
             const reviews = result.rows;
